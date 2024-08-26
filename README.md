@@ -1,0 +1,1 @@
+# ezcontent-content-types-recipe
