@@ -1,0 +1,26 @@
+name: 'EzContent Content Types.'
+description: "Provides shared node fields for other node-based features."
+# note, that this needs to be plural:
+# recipes:
+#   - ezcontent-paragraphs
+install:
+  - drupal:datetime
+  - field_group:field_group
+  - metatag:metatag
+  - paragraphs_previewer:paragraphs_previewer
+  - pathauto:pathauto
+  - scheduler:scheduler
+  - social_media:social_media
+  - yoast_seo:yoast_seo
+  - autocomplete_deluxe:autocomplete_deluxe
+  - diff:diff
+  - entityqueue:entityqueue
+  - length_indicator:length_indicator
+  - schema_metatag:schema_article
+  - allowed_formats:allowed_formats
+  - ezcontent:ezcontent_node
+  - layout_library:layout_library
+  - layout_builder_component_attributes:layout_builder_component_attributes
+  - layout_builder_restrictions:layout_builder_restrictions
+  - layout_custom_section_classes:layout_custom_section_classes
+  - lb_direct_add:lb_direct_add

@@ -1,0 +1,37 @@
+{
+    "name": "drupal_recipe/ezcontent_content_type",
+    "description": "Basic setup for the EzContent",
+    "type": "drupal-recipe",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/abhineshdhiman-srijan/ezcontent-node"
+        }
+    ],
+    "require": {
+        "drupal/ezcontent_node": "dev-main",
+        "drupal/field_group": "^3.4",
+        "drupal/metatag": "^2.0",
+        "drupal/paragraphs_previewer": "^1.7",
+        "drupal/pathauto": "^1.11",
+        "drupal/scheduler": "^2.0@RC",
+        "drupal/social_media": "^2.0",
+        "drupal/yoast_seo": "^2.0@alpha",
+        "drupal/autocomplete_deluxe": "^2.0",
+        "drupal/diff":"^1.7",
+        "drupal/entityqueue": "^1.5",
+        "drupal/length_indicator": "^1.2",
+        "drupal/schema_metatag": "^3.0",
+        "drupal/allowed_formats": "^2.0",
+        "drupal/layout_library": "^1.0@beta",
+        "drupal/layout_builder_component_attributes": "^2.1",
+        "drupal/layout_builder_restrictions": "^2.17",
+        "drupal/layout_custom_section_classes": "^1.0",
+        "drupal/lb_direct_add": "^2.0"
+    },
+    "license": "GPL-2.0-or-later"
+}
