@@ -10,9 +10,14 @@
         {
           "type": "vcs",
           "url": "https://github.com/abhineshdhiman-srijan/ezcontent-node"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/abhineshdhiman-srijan/ezcontent-media-recipe"
         }
     ],
     "require": {
+        "abhineshdhiman-srijan/ezcontent-media-recipe": "dev-main",
         "drupal/ezcontent_node": "dev-main",
         "drupal/field_group": "^3.4",
         "drupal/metatag": "^2.0",
