@@ -1,8 +1,8 @@
 name: 'EzContent Content Types.'
 description: "Provides shared node fields for other node-based features."
 # note, that this needs to be plural:
-# recipes:
-#   - ezcontent-paragraphs
+recipes:
+  - ezcontent-media-recipe
 install:
   - drupal:datetime
   - field_group:field_group
